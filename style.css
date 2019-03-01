@@ -7,34 +7,91 @@ header {
   }
 
 #header-logo{
-  height:25%;
+  height: auto;
   width:25%;
 }
+/*navBar*/
+#mainNav{
+  opacity: 0.85;
+  filter: alpha(opacity=75);
+
+}
+/*header*/
+#ragnar-header{
+  background-color: #133395;
+}
+
+
+/*Meet the team mainpage*/
+.teamPortraitBG{
+  Height:auto;
+  width:100%;
+  color: white;
+  font-family: 'Nobile', sans-serif;
+  font-size: 9vw;
+  text-align: center;
+}
+
+
 
 
 /*sliding container*/
-
-.container:hover .overlay {
+.service-wrapper{
+  overflow:hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+.service-wrapper-inner{
   height:100%;
   width: 100%;
-}
-.text{
-  color: white;
-  font-size: 20px;
   position: absolute;
-  top: 50%;
-  -webkit-transform: translate (-50%,-50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align:center;
+  top:75%;
+  z-index: 1;
+  padding: 15px, 20px;
+  -webkit-transition:0.1s;
+  -moz-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+  background: blue;
+  background-size: 100%;
 }
-.overlay{
-  position: absolute;
-  bottom:0;
-  left:0;
-  right:0;
-  background-color: #008CBB;
-  overflow: hidden;
+.service-wrapper:hover .service-wrapper-inner{
+  top:0;
+}
+
+
+/*video and title*/
+.video-container{
+  Height:100%;
+  width:100%;
+}
+video {
+  height: auto;
+  vertical-align: middle;
   width: 100%;
-  transition: 5s ease;
+}
+
+/*Title Overlay CSS*/
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Ragnar-Head-Title {
+  color: white;
+  font-family: 'Nobile', sans-serif;
+  font-size: 9vw;
+  text-align: center;
+}
+#Eleveator-Pitch {
+  color: white;
+  font-family: 'Nobile', sans-serif;
+  font-size: 9vw;
+  text-align: center;
+}
+#services{
+  background-image: url(./files/images/team_photos/team/)
 }
