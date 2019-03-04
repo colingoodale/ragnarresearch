@@ -24,7 +24,7 @@ header {
 
 /*Meet the team mainpage*/
 .teamPortraitBG{
-  Height:auto;
+  Height:75%;
   width:100%;
   color: white;
   font-family: 'Nobile', sans-serif;
@@ -48,12 +48,13 @@ header {
   top:75%;
   z-index: 1;
   padding: 15px, 20px;
-  -webkit-transition:0.1s;
-  -moz-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
-  background: blue;
+  -webkit-transition:1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  background: grey;
   background-size: 100%;
+  opacity:0.5;
 }
 .service-wrapper:hover .service-wrapper-inner{
   top:0;
