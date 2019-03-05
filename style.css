@@ -1,3 +1,7 @@
+.TeamRow{
+  align-content: Center;
+}
+
 header {
     padding: 156px 0 100px;
   }
@@ -24,7 +28,7 @@ header {
 
 /*Meet the team mainpage*/
 .teamPortraitBG{
-  Height:75%;
+  height:auto;
   width:100%;
   color: white;
   font-family: 'Nobile', sans-serif;
@@ -52,7 +56,7 @@ header {
   -moz-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
-  background: grey;
+  background-color: #133359;
   background-size: 100%;
   opacity:0.5;
 }
