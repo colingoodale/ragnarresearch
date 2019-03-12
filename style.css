@@ -2,6 +2,7 @@
   align-content: Center;
 }
 
+
 header {
     padding: 156px 0 100px;
   }
@@ -25,23 +26,61 @@ header {
   background-color: #133395;
 }
 
-
-/*Meet the team mainpage*/
-.teamPortraitBG{
-  height:auto;
-  width:100%;
-  color: white;
-  font-family: 'Nobile', sans-serif;
-  font-size: 9vw;
-  text-align: center;
+/*Capabilities*/
+#about{
+  background-color:#133395;
+}
+#capabilities_row{
+  background-color: #FBB03B;
+}
+.capabilities_text{
+  color: #133395;
 }
 
 
+/* White Paper CSS*/
+#whitePapers{
+  background-color:#133395;
+}
+#whitePapersRow{
+  background-color: #FBB03B;
+  white-space: nowrap;
+  display:table;
+}
+/*white paper holders*/
+.white-paper-img{
+  vertical-align: middle;
+  padding: 13px;
+  display: table-cell;
+}
+.infoGraphic{
+  height:auto;
+  width:100%;
 
+}
+#CellVSP{
+  padding-top: 25px;
+}
+#StratVSP{
+  padding-top: 25px;
+}
 
 /*sliding container*/
+.text{
+  align-content: Left;
+  text-align:justify;
+  text-justify:inter-word;
+  color: #FBB03B;
+  z-index:2;
+  opacity: 1;
+}
+
 .service-wrapper{
   overflow:hidden;
+  margin: 15px;
+  float: left;
+  height: 300px;
+  width: 300px;
   position: relative;
   margin-bottom: 20px;
 }
@@ -49,22 +88,65 @@ header {
   height:100%;
   width: 100%;
   position: absolute;
-  top:75%;
+  top:185px;
   z-index: 1;
   padding: 15px, 20px;
-  -webkit-transition:1s;
-  -moz-transition: 1s;
-  -o-transition: 1s;
-  transition: 1s;
+  -webkit-transition:2s;
+  -moz-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
   background-color: #133359;
   background-size: 100%;
-  opacity:0.5;
+  opacity: 1;
 }
 .service-wrapper:hover .service-wrapper-inner{
   top:0;
 }
 
-
+/*Meet the Team*/
+/*Meet the team mainpage*/
+.teamPortraitBG{
+  display: block;
+  height:auto;
+  width:100%;
+  color: white;
+  font-family: 'Nobile', sans-serif;
+  font-size: 9vw;
+  text-align: center;
+}
+.portrait_container{
+  position: relative;
+  width: 100%;
+}
+.team_overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width:100;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #133395;
+}
+.portrait_container:hover .team_overlay {
+  opacity: .5;
+}
+.meet_text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#MeetTheTeam{
+  height:auto;
+  width: 100%;
+}
 /*video and title*/
 .video-container{
   Height:100%;

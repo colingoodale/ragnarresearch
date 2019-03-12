@@ -1,0 +1,35 @@
+body{
+    background-color: #133395;
+}
+
+.div_container{
+    align-content: center;
+    height:800px;
+    width:90%;
+}
+#resumeEmbed{
+    height: 800px;
+    width: 100%;
+    float: left;
+    padding-left:10%;
+    padding-right:10%;
+    background-color: #133395;
+}
+.Buffer{
+    
+    background-color: #133395;
+}
+#page-header{
+    height: 100px;
+    width: 100%;
+}
+#page-left{
+    width: 20px;
+    height: 800px;
+    float: left;
+}
+#page-right{
+    width: 20px;
+    height: 800px;
+    float: right;
+}
