@@ -29,23 +29,28 @@ header {
 /*Capabilities*/
 #about{
   background-color:#133395;
+  border-color: red;
 }
 #capabilities_row{
   background-color: #FBB03B;
+  border-color:red;
 }
 .capabilities_text{
   color: #133395;
+
 }
 
 
 /* White Paper CSS*/
 #whitePapers{
   background-color:#133395;
+  border-color: red;
 }
 #whitePapersRow{
   background-color: #FBB03B;
   white-space: nowrap;
   display:table;
+  border-color: red;
 }
 /*white paper holders*/
 .white-paper-img{
