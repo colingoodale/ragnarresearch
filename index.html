@@ -32,10 +32,10 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          <a class="nav-link js-scroll-trigger" href="#about">Capabilities</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+          <a class="nav-link js-scroll-trigger" href="#team">Team</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -79,7 +79,6 @@
           <div class="service-wrapper-inner">
             <a href="./Inforgraphic_pages/cellvslandline.html" class="js-scroll-trigger">
               <h2 class="text" id="cellVSH">Cell-Phone vs Landline<h2>
-                  <p class="text" id="CellVSP">Understand the difference between Cell and Landline interaction</p>
             </a>
           </div>
         </div>
@@ -101,7 +100,7 @@
 </section>
 
 
-<div class="portrait_container">
+<div class="portrait_container" id="team">
   <img src="team/img/Ragnar_Research_Headshots_Group_0134_crop_2.jpg" class="teamPortraitBG" alt="teamBackground">
   <div class="team_overlay">
     <a href="./team/index.html">
@@ -118,15 +117,81 @@
 
 <section id="contact">
   <h2 id="Contact-Heading">Connect with Ragnar, send us an email.</h2>
+  <div class="form-margin-buster">
+    <div class="form-container" id="contact-container">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputFirstName1">First Name</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="First Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Last Name</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Last Name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Email</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Email">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message for the team</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+        </div>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+  </div>
+  <div class="location-container">
+    <div class="location">
+      <h3 class="location-text">Washington, D.C.</h3>
+      <p></p>
+    </div>
+    <div class="location">
+      <h3 class="location-text">Austin, Texas</h3>
+      <p class="address-text">1005 Congress Avenue, suite 460</p>
+      <p class="address-text">Austin, TX 78701</p>
+    </div>
+    <div class="location">
+      <h3 class="location-text">Oklahoma City, Ok</h3>
+      <p class="address-text">4125 N Classen Blvd, Suite 200</p>
+      <p class="address-text">Oklahoma City, OK 73118</p>
+    </div>
+    <div class="location">
+      <h3 class="location-text">Bend, Oregon</h3>
+    </div>
+  </div>
 
 </section>
 
 <!-- Footer -->
 <footer class="py-5 bg-dark">
-  <div class="container">
-    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
-  </div>
-  <!-- /.container -->
+  <div class=" container">
+    <p class="m-0 text-sm-left text-white font-italic" id="copyright">Copyright &copy; Ragnar Research 2019</p>
+    <div class="nav-logo">
+      <img id="nav-logo-logo" src="files/images/Logos/Ragnar_Text_Logo_White_CMYK.png" alt="Ragnar-Logo-White">
+    </div>
+
+    <div class="social-container">
+      <a href="https://www.facebook.com/RagnarResearch/">
+        <img class="social-logo" src="files/images/logos/flogo_RGB_HEX-72.png" alt="facebook_logo">
+      </a>
+    </div>
+    <div class="social-container">
+      <a href="https://twitter.com/ragnarresearch?lang=en">
+        <img class="social-logo" src="files/images/logos/Twitter_Logo_Blue.png" alt="twitter_logo">
+      </a>
+    </div>
+
+    <div class="social-container">
+      <a href="https://www.facebook.com/RagnarResearch/">
+        <img class="social-logo" src="files/images/logos/In-2C-14px.png" alt="linkedin_logo">
+      </a>
+    </div>
+  </div> <!-- /.container -->
 </footer>
 
 <!-- Bootstrap core JavaScript -->
