@@ -214,16 +214,65 @@ video {
   background-color: #133395;
 }
 .location{
-  background: #133395;
   height:auto;
   width: 25%;
   align-content: center;
   float:left;
 }
 .location-text{
-  color: #FBB03B;
+  color: #133395;
 }
 .address-text{
   color: #FBB03B;
   font-size: 10pt;
+}
+/*team*/
+.team-list{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.team-list-item{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1em;
+}
+.team-list-item p{
+  flex: 1 0 auto;
+}
+.team-portrait-container{
+  position: relative;
+  width: 100%;
+}
+.team-ind-portrait{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.team-portrait-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #133395;
+  }
+.team-portrait-container:hover .team-portrait-overlay{
+  opacity: .75;
+}
+.team-text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
