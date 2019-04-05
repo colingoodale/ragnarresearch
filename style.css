@@ -1,0 +1,351 @@
+@font-face {
+  font-family: 'Freightsans-Bold';
+  src: url('./files/Freight-SansBold.woff') format('woff'),
+       url('./files/Freight-SansBold.woff') format('woff');
+}
+
+
+.TeamRow{
+  align-content: Center;
+}
+
+
+header {
+    padding: 156px 0 100px;
+  }
+  
+  section {
+    padding: 100px;
+    background-color: white;
+  }
+  #video-head{
+    padding: 0px;
+  }
+  body{
+    background-color:#DCDCDC;
+    padding-top: 102.5px;
+    padding-left: 20px;
+    align-content: center;
+}
+.main-container{
+    background-color: white;
+    width: 95%;
+    height: auto;
+    box-shadow: 10px 10px 20px 20px rgb(156, 156, 156);
+    align-self: center;
+}
+#header-logo{
+  height: auto;
+  width:25%;
+  float: left;
+}
+/*navBar*/
+#mainNav{
+  opacity: 0.85;
+  filter: alpha(opacity=75);
+
+}
+/*header*/
+#ragnar-header{
+  background-color: #133395;
+}
+
+
+/*Capabilities*/
+#about{
+  background-color:white;
+}
+.split{
+  height: auto;
+  width: 50%;
+}
+.capabilities-row{
+  background-color: white;
+  width: 100%;
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.capabilities-column{
+  flex: 50%;
+  padding: 10px;
+  height: auto;
+  text-align: center;
+}
+.capabilities-row-hex{
+  background-color: white;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.cap-exp-title{
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #133395;
+  display: inline-block;
+  text-align:center;
+  font-family: 'Freightsans-Bold', Fallback, sans-serif;
+  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
+  0px 8px 13px rgba(128,128,128,0.1),
+  0px 18px 23px rgba(128,128,128,0.1);
+}
+.cap-exp-text{
+  display: inline-block;
+  font-size: .75em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  text-shadow: 0px 4px 3px rgba(128,128,128,0.4),
+  0px 8px 13px rgba(128,128,128,0.1),
+  0px 18px 23px rgba(128,128,128,0.1);
+  margin-top: 45px;
+}
+.cap-img-bord{
+  padding-top: 10px;
+}
+.cap-img-hex{
+  height:auto;
+  width: 100px;
+}
+.cap-img-bord-card{
+  padding-top: 50px;
+}
+.cap-img-hex-card{
+  height:auto;
+  width: 75px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.cap-bullet{
+  height: auto;
+  width: 25px;
+}
+
+
+
+/*Infographics*/
+.info-list{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.info-list-item{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1em;
+}
+.info-list-item p{
+  transition: 3s;
+  flex: auto;
+}
+.info-portrait-container{
+  position: relative;
+  width: 500px;
+  height: 375px;
+}
+.info-ind-portrait{
+  max-height: auto;
+  max-width: 100%;
+  transition: 3s;
+  box-shadow: 5px 5px 10px 15px rgb(233, 231, 231);
+}
+.info-list-item:hover{
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
+.info-ind-portrait:hover{
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+/*Meet the Team*/
+/*Meet the team mainpage*/
+.teamPortraitBG{
+  display: block;
+  height:auto;
+  width:100%;
+  color: white;
+  font-family: 'Nobile', Trebuchet MS;
+  font-size: 9vw;
+  text-align: center;
+}
+.portrait_container{
+  position: relative;
+  width: 100%;
+}
+.team_overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width:100;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #133395;
+}
+.portrait_container:hover .team_overlay {
+  opacity: .5;
+}
+.meet_text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#MeetTheTeam{
+  height:auto;
+  width: 100%;
+}
+/*video and title*/
+.video-container{
+  Height:75%;
+  width:100%;
+}
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+
+#services{
+  background-image: url(./files/images/team_photos/team/)
+}
+
+.location-container{
+  margin: 50px;
+}
+.location{
+  height:auto;
+  width: 25%;
+  align-content: center;
+  float:left;
+}
+.location-text{
+  color: #133395;
+}
+.address-text{
+  color: #FBB03B;
+  font-size: 10pt;
+}
+/*team*/
+.team-list{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.team-list-item{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1em;
+}
+.team-list-item p{
+  flex: auto;
+}
+.team-portrait-container{
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+.team-ind-portrait{
+  max-height: 100%;
+  max-width: 100%;
+  box-shadow: 5px 5px 2.5px black;
+}
+.team-portrait-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #133395;
+  }
+.team-portrait-container:hover .team-portrait-overlay{
+  opacity: .75;
+}
+.team-text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.team-text-p{
+  color:white;
+  font-size: 20px;
+}
+/*Contact*/
+.formBox{
+	margin-top: 90px;
+	padding: 50px;
+}
+.formBox  h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-size: 48px;
+}
+.inputBox{
+	position: relative;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+.inputBox .inputText{
+	position: absolute;
+    font-size: 24px;
+    line-height: 50px;
+    transition: .5s;
+    opacity: .5;
+}
+.inputBox .input{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	border: none;
+    outline: none;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+
+}
+.focus .inputText{
+	transform: translateY(-30px);
+	font-size: 18px;
+	opacity: 1;
+	color: #133395;
+
+}
+textarea{
+	height: 100px !important;
+}
+.button{
+	width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #133395;
+    -webkit-text-fill-color: #FBB03B;
+    color: #fff;
+}
